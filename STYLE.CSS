@@ -1,0 +1,151 @@
+body{
+    overflow: hidden;
+   background: #dfeaf0;
+  font-family: Arial, sans-serif;
+  padding-top: 50px; 
+}
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+    top: 100px; 
+}
+.text{
+    color: white;
+    position: relative;
+    top:5px ;
+    left: 30px; 
+    font-size:26px ;
+    font-weight: bold;
+}
+.toggle-btn{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.toggle-btn span{
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+#toggle{
+    display: none;
+}
+.nav-links{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    gap: 30px;
+}
+.nav-links a{
+    color: #cfcfcf;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-shadow: 0px 10px 10px rgba(0,0,0);
+}
+@media (max-width:768px){
+    .toggle-btn{
+        display: flex;
+    }
+    .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 86px;
+    left: 0;
+    width: 100%;
+    background-color:#5084c1;
+    padding: 1rem;
+  }
+  .nav-links a:hover{
+  color:#ff9494;
+  background-color: aliceblue;
+  padding: 10px;
+  text-shadow: none;
+  border-radius: 20px;
+  }
+  #toggle:checked~.nav-links{
+    display: flex;
+  }
+}
+.btn{
+  background-color: #1aa3b8;
+  color: white;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 20px;
+  position: relative;
+  top: -5px;
+}
+
+.text1{
+    color: white;
+    position: relative;
+    top:5px ;
+    right: 40px;
+    font-size:26px ;
+    font-weight: bold;
+}
+
+
+
+#T1{
+  position: relative;
+  right: 35px;
+  top: 5px;
+}
+
+#T2{
+    position: relative;
+    left: 10px;
+    top: 9px;
+}
+
+#T3{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: center;
+    position: relative;
+    right: 250px;
+    top: 8px;
+    cursor: pointer;
+}
+#b3{
+    position: relative;
+    right: 30px;
+    top: -2px;
+    border-radius:20px ;
+    background-color: #1aa3b8;
+  border: none;
+  padding: 8px 22px;
+  color: white;
+}
+.navbar3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+  top: 300px;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+  top: 200px;
+}
